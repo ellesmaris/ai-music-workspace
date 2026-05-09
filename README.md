@@ -1,8 +1,8 @@
 # 🎵 AI Music Workspace
 
-An AI-powered music production environment built with Next.js, Tone.js, and OpenAI.
+An AI-powered music production environment built with Next.js, Tone.js and OpenAI.
 
-This project combines a lightweight DAW (digital audio workstation) with AI-assisted music generation, allowing users to create, edit, and structure music directly in the browser.
+This project combines a lightweight DAW (digital audio workstation) with AI-assisted music generation, allowing users to create, edit and structure music directly in the browser.
 
 ---
 
