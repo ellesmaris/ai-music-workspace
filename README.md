@@ -1,4 +1,4 @@
-# 🎵 AI Music Coding Workspace
+# 🎵 AI Music Workspace
 
 An AI-powered music production environment built with Next.js, Tone.js, and OpenAI.
 
