@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎵 AI Music Coding Workspace
 
-## Getting Started
+An AI-powered music production environment built with Next.js, Tone.js, and OpenAI.
 
-First, run the development server:
+This project combines a lightweight DAW (digital audio workstation) with AI-assisted music generation, allowing users to create, edit, and structure music directly in the browser.
 
-```bash
+---
+
+## ✨ Features
+
+### 🎹 Piano Roll Editor
+- Grid-based note editor
+- Click-to-place / remove notes
+- 1/16 note quantization
+- Velocity + duration control
+
+### 🎼 Pattern System
+- Create reusable musical patterns
+- Switch between patterns instantly
+- Loop individual patterns or play full arrangements
+
+### 🤖 AI Music Generation
+- Generate melodies, chords, and drums using OpenAI
+- Outputs structured into DAW-compatible patterns
+- One-click "Generate Idea" workflow
+
+### 🎧 Audio Engine
+- Built with Tone.js
+- Real-time playback
+- Tempo and transport controls
+
+### 💾 Project System
+- Save and load sessions locally
+- Multiple project support (browser storage)
+
+### 📤 Export (MVP)
+- MIDI export support
+- Arrangement-based output
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Tone.js
+- OpenAI API
+- LocalStorage (project persistence)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+npm install
+
+### 2. Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Open app
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Concept
 
-## Learn More
+This project is designed as a hybrid between:
 
-To learn more about Next.js, take a look at the following resources:
+- a DAW (like Ableton Lite)
+- a code-driven music editor
+- an AI music assistant
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Instead of traditional music production tools, users can:
+- generate ideas with AI
+- structure music in patterns
+- edit notes visually in a piano roll
+- export compositions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+components/ → UI (Piano roll, patterns, workspace)
+hooks/ → Tone.js playback logic
+lib/ → Music logic, audio engine, utilities
+app/api/ → AI + generation endpoints
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔮 Future Ideas
+
+- Drag-and-drop arrangement timeline
+- Audio waveform rendering
+- Real-time collaboration
+- Plugin-style synth instruments
+- AI “style transfer” between songs
+
+---
+
+## ⚠️ Status
+
+This project is currently in MVP stage and actively evolving.
+
+Core music engine is functional, but UI/UX and production features are still being refined.
+
+---
+
+## 📄 License
+
+MIT
